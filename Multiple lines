@@ -1,0 +1,4 @@
+data("mtcars")
+
+plot(x,mtcars$mpg,type="o",xlab="Index",ylab="Values")
+lines(x,mtcars$qsec,type="o",col="red",lwd=2)
